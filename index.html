@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Name that Dog!</title>
+    <link rel="stylesheet" href="/style.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Londrina+Solid:wght@100;400&amp;display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="container">
+      <header><h1>Name that Dog!</h1></header>
+      <div class="dog-img">
+        <img src="" alt="" width="300px" height="300px" />
+      </div>
+      <div class="question"><h4></h4></div>
+      <div class="hint"></div>
+      <div class="inputs">
+        <div class="row">
+          <div class="col">
+            <input type="radio" name="answer" id="labrador-retriever" />
+          </div>
+          <div class="col">
+            <label for="">Labrador Retriever</label>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col">
+            <input type="radio" name="answer" id="poodle" />
+          </div>
+          <div class="col">
+            <label for="">Poodle</label>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col">
+            <input type="radio" name="answer" id="bulldog" />
+          </div>
+          <div class="col">
+            <label for="">Bulldog</label>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col">
+            <input type="radio" name="answer" id="german-shepherd" />
+          </div>
+          <div class="col">
+            <label for="german-shepherd">German Shepherd</label>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col">
+            <input type="radio" name="answer" id="chihuahua" />
+          </div>
+          <div class="col">
+            <label for="chihuahua">Chihuahua</label>
+          </div>
+        </div>
+      </div>
+      <div class="controls">
+        <button class="btnPrev" disabled>Previous</button>
+        <button class="btnNext" disabled>Next</button>
+      </div>
+    </div>
+    <div class="results">
+      <img src="./resources/chihuahua-mobile.jpg" alt="" />
+      <p></p>
+      <button class="reset">Want to try again?</button>
+    </div>
+    <script src="./index.js"></script>
+  </body>
+</html>
